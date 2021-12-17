@@ -6,6 +6,10 @@
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+@import 'https://fonts.googleapis.com/css?family=Noto+Serif+TC';
+.page-content {
+        font-family: "Noto Serif TC" !important;
+}
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
