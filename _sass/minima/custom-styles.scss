@@ -6,9 +6,11 @@
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-@import 'https://fonts.googleapis.com/css?family=Noto+Serif+TC';
+@import 'https://fonts.googleapis.com/css?family=Noto+Serif+TC:500,600';
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300';
 .page-content {
-        font-family: "Noto Serif TC" !important;
+        font-family: "Noto Sans TC" !important;
+        font-weight: 300 !important;
 }
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
