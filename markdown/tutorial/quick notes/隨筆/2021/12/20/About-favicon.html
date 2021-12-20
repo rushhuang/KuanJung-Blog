@@ -147,7 +147,7 @@ window.onload = wrap_img;
 
 <p>關於在用 fastpages 搭建的部落格上，要改變 favicon 的設定，依據找到的<a href="https://forums.fast.ai/t/how-do-i-add-a-logo-next-to-the-fastpages-blog-name/69904/6">討論文</a>，發現是要去修改部落格根目錄下的 <code class="language-plaintext highlighter-rouge">_includes/favicons.html</code>。</p>
 
-<p>關於 favicon 的製作方式，只要輸出大小在 <code class="language-plaintext highlighter-rouge">180 X 180</code> 左右的 png 檔，應該是沒問題，我自己是使用網路上找到的 <a href="https://realfavicongenerator.net/">favicon 產生器</a> 來製作，只要把你想拿來做成 favicon 的圖丟給它，網站會自己產生相關的檔案如下：</p>
+<p>關於 favicon 的製作方式，只要輸出大小在 <code class="language-plaintext highlighter-rouge">48 X 48</code> 左右的 <code class="language-plaintext highlighter-rouge">ico</code> 檔，應該是沒問題，我自己是使用網路上找到的 <a href="https://realfavicongenerator.net/">favicon 產生器</a> 來製作，只要把你想拿來做成 favicon 的圖丟給它，網站會自己產生支援各種瀏覽器的 favicon 檔案如下：</p>
 
 <pre><code class="language-command-line">android-chrome-192x192.png
 android-chrome-256x256.png
@@ -159,6 +159,8 @@ mstile-150x150.png
 safari-pinned-tab.svg
 site.webmanifest
 </code></pre>
+
+<p>關於各種瀏覽器支援的 favicon 格式可參閱<a href="https://stackoverflow.com/questions/48956465/favicon-standard-2021-svg-ico-png-and-dimensions">這篇討論文</a>。</p>
 
 <p>得到相關檔案後，就可以把它們丟進部落格根目錄下的 <code class="language-plaintext highlighter-rouge">images/</code> 資料夾。</p>
 
@@ -174,7 +176,7 @@ site.webmanifest
 
 <p><span class="italic" style="display:block; text-align:center; font-size:14px; margin-top:1em;">以上程式碼為將相對路徑取代後結果</span></p>
 
-<p>其中值得注意的是關於 <code class="language-plaintext highlighter-rouge">apple-touch-icon</code>，它是用來當作 iOS 裝置把網頁加入主畫面時所呈現的圖示。在我做這些更動前，把部落格加入主畫面後，iOS 系統會自己以網頁縮圖來當作圖示，很醜，所以讓我興起了想要修改 <code class="language-plaintext highlighter-rouge">favicon</code> 及 <code class="language-plaintext highlighter-rouge">apple-touch-icon</code> 的想法。</p>
+<p>其中值得注意的是關於 <code class="language-plaintext highlighter-rouge">apple-touch-icon</code>，它是用來當作 iOS 裝置把網頁加入主畫面時所呈現的圖示，圖示大小建議在 <code class="language-plaintext highlighter-rouge">180 X 180</code> 左右。在我做這些更動前，把部落格加入主畫面後，iOS 系統會自己以網頁縮圖來當作圖示，很醜，所以讓我興起了想要修改 <code class="language-plaintext highlighter-rouge">favicon</code> 及 <code class="language-plaintext highlighter-rouge">apple-touch-icon</code> 的想法。</p>
 
 <h2 id="結語">
 <a class="anchor" href="#%E7%B5%90%E8%AA%9E" aria-hidden="true"><span class="octicon octicon-link"></span></a>結語</h2>
