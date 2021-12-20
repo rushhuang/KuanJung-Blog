@@ -17,7 +17,7 @@ search_exclude: false
 
 簡單 Google 了一下發現這是網頁會使用的 favicon，有興趣的話，網路上有其他更多更詳盡關於 favicon 的介紹，這邊就不多贅述了。
 
-關於在用 fastpages 搭建的部落格上，要改變 favicon 的設定，依循找到的[討論文](https://forums.fast.ai/t/how-do-i-add-a-logo-next-to-the-fastpages-blog-name/69904/6)發現是要去修改部落格跟目錄下的 `_includes/favicons.html`。
+關於在用 fastpages 搭建的部落格上，要改變 favicon 的設定，依據找到的[討論文](https://forums.fast.ai/t/how-do-i-add-a-logo-next-to-the-fastpages-blog-name/69904/6)，發現是要去修改部落格根目錄下的 `_includes/favicons.html`。
 
 關於 favicon 的製作方式，只要輸出大小在 `180 X 180` 左右的 png 檔，應該是沒問題，我自己是使用網路上找到的 [favicon 產生器](https://realfavicongenerator.net/) 來製作，只要把你想拿來做成 favicon 的圖丟給它，網站會自己產生相關的檔案如下：
 
@@ -48,7 +48,7 @@ site.webmanifest
 
 <span class="italic" style="display:block; text-align:center; font-size:14px; margin-top:1em;">以上程式碼為將相對路徑取代後結果</span>
 
-其中值得注意的是關於 `apple-touch-icon`，它是用來當作 ios 裝置把網頁加入主畫面時所呈現的圖示。在我做這些更動前，把部落格加入主畫面後，iOS 系統會自己以網頁縮圖來當作圖示，很醜，所以讓我興起了想要修改 `favicon` 及 `apple-touch-icon` 的想法。
+其中值得注意的是關於 `apple-touch-icon`，它是用來當作 iOS 裝置把網頁加入主畫面時所呈現的圖示。在我做這些更動前，把部落格加入主畫面後，iOS 系統會自己以網頁縮圖來當作圖示，很醜，所以讓我興起了想要修改 `favicon` 及 `apple-touch-icon` 的想法。
 
 ## 結語
 今天的紀錄就先到這裡，簡單記錄一下關於更改以 fastpages 部屬部落格修改 `favicon` 和 `apple-touch-icon` 的方法。
